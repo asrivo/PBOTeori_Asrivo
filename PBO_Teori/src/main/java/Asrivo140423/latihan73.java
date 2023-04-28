@@ -11,7 +11,7 @@ package Asrivo140423;
 public class latihan73 
 {
     public static void main (String [] args){
-        String [][] entry = {{"Florence", "734-1234", "Manila"},{"Joyce", "983-3333", "Quezon City"}, {"Becca", "456-3322", "Manila"}};
+        String [][] entry = {{"Florence", "735-1234", "Manila"},{"Joyce", "983-3333", "Quezon City"}, {"Becca", "456-3322", "Manila"}};
         
         int i=0;
         do{

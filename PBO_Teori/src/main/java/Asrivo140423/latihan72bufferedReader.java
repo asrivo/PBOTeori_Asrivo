@@ -8,6 +8,7 @@ package Asrivo140423;
  *
  * @author Asrivo MKP
  */
+
 import java.io.*;
 public class latihan72bufferedReader 
 {
