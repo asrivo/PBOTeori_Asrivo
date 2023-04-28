@@ -17,15 +17,15 @@ Pada baris kedua di dalam perulangan, terdapat perintah `System.out.println("\n"
 
 Sebagai contoh, jika program dijalankan dengan memberikan argumen sebagai berikut:
 ```
-java Latihan841 arg1 arg2 arg3 arg4 arg5
+java Latihan841 Hello world that is all
 ```
 Maka program akan mencetak nilai argumen satu per satu pada setiap iterasi perulangan, dengan dipisahkan oleh baris baru (dikarenakan karakter escape `\n` yang ada sebelum mencetak argumen). Output yang dihasilkan akan seperti ini:
 ```
-arg1
-arg2
-arg3
-arg4
-arg5
+Hello
+world
+that
+is
+all
 ```
 
 Namun, perlu diingat bahwa program di atas perlu memastikan bahwa terdapat setidaknya 5 argumen yang diberikan saat menjalankan program. Jika argumen kurang dari 5, maka akan terjadi `ArrayIndexOutOfBoundsException`, karena mencoba mengakses indeks yang tidak ada dalam array `args`.
