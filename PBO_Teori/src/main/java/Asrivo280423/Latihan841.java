@@ -10,8 +10,9 @@ package Asrivo280423;
  */
 public class Latihan841 {
     public static void main ( String[]args){
-        for(int i=0; i<=4; i++)
-        System.out.println("\n" +args[i]);
-         
+        for(int i=0; i<4; i++){
+        System.out.println(args[i]);
+        }
+        System.out.println("number of : "+args.length);
     }
 }
